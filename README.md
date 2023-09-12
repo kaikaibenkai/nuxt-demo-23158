@@ -16,3 +16,13 @@ pnpm build
 ```
 
 ...Error occurred
+
+I also tried to reproduce this issue directly using Vite, but it didn't occur. (see `/vite-project`)
+
+```bash
+pnpm vite:dev # start Vite dev server
+pnpm vite:build # build Vite server
+pnpm vite:dev # preview Vite server
+```
+
+(Please forgive my bad English)
